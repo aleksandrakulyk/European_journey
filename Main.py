@@ -51,7 +51,7 @@ class Questionnaire:
         return results
 
 
-class CountryInfo:
+class WebScraper:
     def __init__(self):
         self.url = URL
         self.user_agent = user_agent
@@ -91,7 +91,7 @@ for index, destination in destinations:
     capital = df.loc[df["Country"] == destination, "Capital"].squeeze()
     URL = f"https://www.timeanddate.com/weather/{destination}/{capital}"
     user_agent = "user_agent"
-    decision = CountryInfo()
+    decision = WebScraper()
     temperatures = decision.scrap()
     temperature = decision.extract(temperatures)
     print(f"{index}. {destination} -- > Today's temperature in {capital}: {temperature} °C")
