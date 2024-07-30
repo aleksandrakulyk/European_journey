@@ -12,7 +12,9 @@
 - Python
   
 ## Screenshots
-![Result](https://github.com/user-attachments/assets/d50ec9ad-a9a5-43be-b06b-b99ac9eca620)
+
+![Result](https://github.com/user-attachments/assets/b13ebb65-82e6-401f-91d6-3d322d2c7d2f)
+
 
 ## Acknowledgements
 This project was created as a first project while learining Python.
