@@ -1,0 +1,3 @@
+temperature:
+  css: '#qlook > div.h2'
+  type: Text
